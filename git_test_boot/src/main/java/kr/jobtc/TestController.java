@@ -10,4 +10,8 @@ public class TestController {
 	public String hi() {
 		return "controller hi...";
 	}
+	@RequestMapping(value="/hi2")
+	public String hi() {
+		return "controller hi...2";
+	}
 }
