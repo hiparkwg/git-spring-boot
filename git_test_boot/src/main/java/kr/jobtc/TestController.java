@@ -11,7 +11,7 @@ public class TestController {
 		return "controller hi...";
 	}
 	@RequestMapping(value="/hi2")
-	public String hi() {
+	public String hi2() {
 		return "controller hi...2";
 	}
 }
